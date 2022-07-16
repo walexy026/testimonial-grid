@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+   background-color: hsl(0, 0%, 81%); 
+}
+.elementOne{
+    background-color: hsl(263, 55%, 52%);
+    /* opacity: 50%; */
+    color: hsl(0, 0%, 81%);
+}
+.elementOne p{
+color: #fff;
+}
+.elementOne q{
+    color: hsl(0, 0%, 81%);
+    
+}
+.elementTwo{
+    background-color: hsl(217, 19%, 35%);
+   color:  hsl(0, 0%, 81%);
+}
+.elementThree{
+    background-color: hsl(0, 0%, 100%);
+    color:hsl(219, 29%, 14%) ;
+}
+.elementFour{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(210, 46%, 14%);
+}
+.elementFive{
+    background-color: hsl(219, 29%, 14%);
+    color: hsl(0, 0%, 81%);
+}
