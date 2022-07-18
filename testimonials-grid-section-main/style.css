@@ -7,7 +7,6 @@ body {
   margin: auto;
 }
 main {
-  /* margin: 150px ; */
   background-color: hsl(210, 46%, 95%);
   display: grid;
   padding: 2em;
@@ -17,6 +16,7 @@ main {
     "elementOne elementOne elementTwo elementThree"
     "elementFour elementFive elementFive elementThree";
   gap: 1em;
+  box-shadow: green, blue  ;
 }
 @media only screen and (max-width: 700px) {
   main {
@@ -34,8 +34,7 @@ aside img {
 aside div p {
   font-family: "Barlow Semi Condensed", sans-serif;
   margin-top: 10px;
-  /* opacity: 50%; */
-  /* display: block; */
+ 
 }
 aside div h6{
     font-family: "Barlow Semi Condensed", sans-serif;
@@ -61,8 +60,8 @@ q {
   border-radius: 10px;
   grid-area: elementOne;
   padding: 2em;
-  /* position: absolute; */
-  /* grid-column: 1/3; */
+  /* position: fixed; */
+
 }
 .elementOne p {
   color: #fff;
@@ -70,19 +69,20 @@ q {
 .elementOne q {
   color: hsl(0, 0%, 81%);
 }
-/* .elementOne svg{
+.elementOne svg{
     position: relative;
-    left: 350px;
-    top: -120px;
-} */
+    z-index: 0;
+    /* padding-left: 3em; */
+    
+    /* left: 200px;
+    top: -20px; */
+}
 .elementTwo {
   background-color: hsl(217, 19%, 35%);
   color: hsl(0, 0%, 81%);
   border-radius: 10px;
   grid-area: elementTwo;
   padding: 2em;
-
-  /* grid-column: 3; */
 }
 .elementThree {
   background-color: hsl(0, 0%, 100%);
@@ -101,7 +101,6 @@ q {
   border-radius: 10px;
   grid-area: elementFour;
   padding: 2em;
-  /* grid-row: 3/4; */
 }
 .elementFour q {
   color: hsl(210, 46%, 14%);
